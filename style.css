@@ -1,0 +1,37 @@
+/******************************
+Ex Start:
+
+body {
+    background-color: #011212;
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: #ff8800;
+    border-radius: 50px;
+}
+
+*******************************/
+
+
+
+:root {
+    --first-bg-color: black;
+    --second-bg-color: #ff8800;
+    --w: 100px;
+    --h: 100px;
+    --radius: 50px;
+}
+
+body {
+    background-color: var(--first-bg-color);
+
+}
+
+.ball {
+    width: var(--w);
+    height: var(--h);
+    background-color: var(--second-bg-color);
+    border-radius: var(--radius);
+}
