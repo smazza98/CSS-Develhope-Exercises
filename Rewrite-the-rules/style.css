@@ -29,8 +29,8 @@ body {
 }
 
 .ball {
-    width: var(--w);
-    height: var(--h);
+    width: var(--size);
+    height: var(--size);
     background-color: var(--second-bg-color);
     border-radius: var(--radius);
 }
