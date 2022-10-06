@@ -19,8 +19,7 @@ body {
 :root {
     --first-bg-color: black;
     --second-bg-color: #ff8800;
-    --w: 100px;
-    --h: 100px;
+    --size: 100px;
     --radius: 50px;
 }
 
