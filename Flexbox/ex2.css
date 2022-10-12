@@ -110,3 +110,7 @@ a:hover {
     padding-left: 30px;
     width: 3rem;
 }
+
+.sidebar:hover {
+    width: 100px;
+}
