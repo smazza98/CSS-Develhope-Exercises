@@ -1,116 +1,56 @@
-/*
-
-
-Perfavore non chiedetemi più di usare Grid x_x
-
-
-*/
-
-
 body {
-    margin: 0;
+    width: 60em;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "green green green" 
+    "yellow red blue"
+    "orange orange blue";
+}
+  
+section {
+    padding: 2em;
+    margin: 1em;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
     padding: 0;
 }
 
-.green {
-    display: grid;
-    background-color: lightgreen;
-    height: 150px;
-}
-
-.green p {
-    margin: 30px;
-    padding-top: 10px;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 598px 598px 644px;
-    grid-template-rows: 500px 231px;
-    padding-top: 40px;
-    gap: 40px;
-}
-
-.yellow {
-    background-color: yellow;
-    height: 100%;
-    width: 100%;
-}
-
-.yellow p {
-    margin: 50px;
-    padding-left: 70px;
-}
-
-.yellow ul {
-    margin: 50px;
-    padding-top: 20px;
-    padding-left: 100px;
-    list-style-type: none;
-}
-
-.item-container {
-    display: grid;
-    grid-template-columns: 120px 120px;
-    grid-template-rows: 80px 80px;
-    gap: 50px;
-}
-
-.item-container li {
-    margin: 25px;
-}
-
-.item1 {
+li {
     background-color: white;
+    padding: 1em;
+    display: block;
+    margin: 1em;
 }
-
-.item2 {
-
-    background-color: white;
+    
+  
+#green {
+    background-color: #8ffda7;
+    grid-area: green;
 }
-
-.item3 {
-    background-color: white;
+  
+#orange {
+    background-color: #ffc788;
+    grid-area: orange;
 }
-
-.item4 {
-    background-color: white;
+  
+#yellow {
+    background-color: #ffff92;
+    grid-area: yellow
 }
-
-.red {
-    background-color: red;
-    height: 100%;
-    width: 100%;
+  
+#red {
+    background-color: #ff919c;
+    grid-area: red
 }
-
-.red p {
-    margin: 50px;
-    padding-left: 70px;
+  
+#blue {
+    background-color: #98d2ff;
+    grid-area:blue
 }
+  
 
-.red ul {
-    margin: 50px;
-    padding-top: 20px;
-    padding-left: 100px;
-    list-style-type: none;
-}
-
-.blue {
-    background-color: blue;
-    height: 771px;
-    width: 100%;
-}
-
-.blue p {
-    margin: 50px;
-}
-
-.orange {
-    background-color: orange;
-    width: 1238px;
-}
-
-.orange p {
-    margin: 30px;
-    padding-top: 10px;
-}
