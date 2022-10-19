@@ -1,24 +1,45 @@
 body {
-    margin: 0;
+    width: 60em;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  section {
+    padding: 2em;
+    margin: 1em;
+  }
+
+ul {
     padding: 0;
-}
-
-.flex-container {
     display: flex;
     flex-direction: column;
-    background-color: yellow;
-    width: 400px;
 }
-
-.yellow {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-}
-
+  
 li {
     background-color: white;
-    width: 50px;
-    height: 50px;
-    align-items: center;
+    padding: 1em;
+    display: block;
+    margin: 1em;
 }
+  
+  
+  #green {
+    background-color: #8ffda7;
+  }
+  
+  #orange {
+    background-color: #ffc788;
+    flex-basis: 50%;
+  }
+  
+  #yellow {
+    background-color: #ffff92;
+  }
+  
+  #red {
+    background-color: #ff919c;
+  }
+  
+  #blue {
+    background-color: #98d2ff;
+  }
