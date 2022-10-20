@@ -49,6 +49,13 @@ body {
     margin: 10px;
 }
 
+.header img:hover {
+    cursor: pointer; 
+    width: 55px;
+    height: 55px;
+    transition: .5s;
+}
+
 .text {
     color: white;
     font-size: 10px;
@@ -73,6 +80,7 @@ p {
     color: white;
     width: 30px;
     height: 30px;
+    cursor: pointer; 
 }
 
 .media {
@@ -96,12 +104,14 @@ p {
     color: white;
     width: 25px;
     height: 25px;
+    cursor: pointer; 
 }
 
 .comm {
     color: white;
     width: 25px;
     height: 25px;
+    cursor: pointer; 
 }
 
 .footer {
